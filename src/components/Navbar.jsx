@@ -8,14 +8,14 @@ function Navbar() {
     }
   return (
     <div  className=' sticky top-0 w-full flex   justify-between items-center z-10 text-black  bg-black '>
-       <a href ="#hero"><h1 className='p-4 font-bold text-2xl '>Run Start</h1></a>
+       <a href ="#hero"><h1 className='p-4 font-bold text-2xl '>Phoke</h1></a>
       <ul className='hidden sm:flex px-4 font-[Montserrat]  '>
        
         <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
-          <a href ="#creators">The Creators</a>
+          <a href ="#creators">About us</a>
         </li>
         <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
-        <a href ="#specs">Specs</a>
+        <a href ="#specs">Features</a>
         </li>
         <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
         <a href ="#subscribe">Subscribe</a>
@@ -25,7 +25,7 @@ function Navbar() {
         <button className='bg-black text-white'>LOGIN</button>
         </li>
         <li className=''>
-        <button className='border-black'>GET STARTED</button>
+        <button className='border-black'>Sign up</button>
         </li>
       </ul>
       {/* Hamburger icon anything above small it will be hidden */}
@@ -43,13 +43,13 @@ function Navbar() {
         <a href ="#about">About us</a>
         </li>
         <li className='text-2xl py-8'>
-        <a href ="#update">Updates</a>
+        <a href ="#update">Features</a>
         </li>
         <li className="">
         <button className='bg-black text-white'>LOGIN</button>
         </li>
         <li className=' '>
-        <button>GET STARTED</button>
+        <button>Sign up</button>
         </li>
         </ul>
       </div>
