@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@500;900&display=swap');
+
+
+
+
+:root{
+    --primary-dark:#fcf300;
+    --primary-light:#ffe97f;
+  }
+  
+  @layer base{
+    html{
+      @apply scroll-smooth
+    }
+  
+    li{
+       
+      @apply p-4 text-sm 
+    }
+  
+    button{
+      @apply px-2 py-1 border rounded-2xl  text-black
+    }
+  
+    h2{
+      @apply text-xl font-bold
+    }
+  }
